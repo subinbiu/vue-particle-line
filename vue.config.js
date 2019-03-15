@@ -1,4 +1,9 @@
+
 const path = require('path');
+
+function reslove(dir) {
+   return path.join(_dirname, dir)
+}
 
 function resolve(dir) {
   return path.join(__dirname, dir)
